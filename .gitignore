@@ -1,0 +1,13 @@
+.idea/
+.vagrant/
+
+venv/
+__pycache__/
+
+*.log
+*.db
+*.thumb
+*.swo
+*.swp
+
+.DS_Store

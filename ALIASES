@@ -1,0 +1,3 @@
+alias env_init="virtualenv -p python ./venv"
+alias env_install="source ./venv/bin/activate; pip3 install -r requirements.txt"
+alias env_reset="rm -rf ./venv; env_init && env_install"

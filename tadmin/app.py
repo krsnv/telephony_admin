@@ -8,4 +8,4 @@ def create_app():
     def fac_app():
         return 'OK'
 
-    return fac_app
+    return app

@@ -3,9 +3,13 @@ from flask import Flask
 
 def create_app():
     app = Flask(__name__)
-
-    @app.route('/')
-    def fac_app():
-        return 'OK'
-
+    
     return app
+
+
+app = create_app()
+
+
+@app.route('/')
+def status():
+    return 'OK'
